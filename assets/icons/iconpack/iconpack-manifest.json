@@ -1,0 +1,23 @@
+{
+  "Version": "1.0.0",
+  "UUID": "com.ulanzi.icon.DaVinciResolveNodes",
+  "Author": "Jean Almeida",
+  "Name": "DaVinci Resolve Nodes Icon Pack",
+  "Description": "70 icons for Ulanzi Studio: detailed DaVinci Resolve command icons: nodes, transitions and color-grading tools, ready to drop onto any key.",
+  "Descriptions": {
+    "en": "70 icons for Ulanzi Studio: detailed DaVinci Resolve command icons: nodes, transitions and color-grading tools, ready to drop onto any key.",
+    "pt": "70 ícones para o Ulanzi Studio: ícones detalhados de comandos do DaVinci Resolve: nós, transições e ferramentas de correção de cor, prontos a usar em qualquer tecla.",
+    "es": "70 iconos para Ulanzi Studio: iconos detallados de comandos de DaVinci Resolve: nodos, transiciones y herramientas de corrección de color, listos para cualquier tecla.",
+    "de": "70 Icons für Ulanzi Studio: detaillierte DaVinci-Resolve-Befehls-Icons: Nodes, Übergänge und Color-Grading-Tools, bereit für jede Taste.",
+    "fr": "70 icônes pour Ulanzi Studio : icônes détaillées de commandes DaVinci Resolve : nœuds, transitions et outils d'étalonnage, prêtes pour n'importe quelle touche.",
+    "it": "70 icone per Ulanzi Studio: icone dettagliate dei comandi di DaVinci Resolve: nodi, transizioni e strumenti di color grading, pronte per qualsiasi tasto.",
+    "ru": "70 иконок для Ulanzi Studio: подробные иконки команд DaVinci Resolve: ноды, переходы и инструменты цветокоррекции, готовые для любой клавиши.",
+    "ja": "Ulanzi Studio 用の70個のアイコン。ノード・トランジション・カラーグレーディングツールなど、DaVinci Resolveの詳細なコマンドアイコンを収録し、どのキーにもすぐに使えます。",
+    "ko": "Ulanzi Studio를 위한 70개의 아이콘: 노드, 전환 및 색보정 도구 등 DaVinci Resolve 세부 명령 아이콘을(를) 담아 모든 키에 바로 사용할 수 있습니다.",
+    "zh": "70个图标，适用于 Ulanzi Studio：DaVinci Resolve 详细命令图标：节点、转场和调色工具，可直接用于任意按键。"
+  },
+  "Category": "Software",
+  "IconCount": 70,
+  "Format": "png",
+  "Animated": false
+}

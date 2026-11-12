@@ -1,0 +1,19 @@
+[package]
+name = "opendeck-davinci-resolve"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[[bin]]
+name = "opendeck-davinci-resolve"
+path = "main.rs"
+
+[dependencies]
+openaction = "2.6"
+enigo = { git = "https://github.com/enigo-rs/enigo.git", rev = "a88d9b7e2cec7043ab5f03e754500a091ea928d1", features = ["serde", "x11rb", "wayland", "libei", "tokio", "platform_specific"] }
+ron = "0.12"
+serde = { version = "1", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+log = "0.4"
+simplelog = "0.12"
+

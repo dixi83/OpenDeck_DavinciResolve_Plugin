@@ -1,0 +1,46 @@
+DaVinci Resolve OpenDeck Plugin Source-Available License
+Version 1.0, November 2026
+
+Copyright (c) 2026 Martijn (DiXY)
+
+This license applies only to the plugin source code, documentation, build and
+release files, and original icon artwork created by Martijn (DiXY), collectively
+the “Covered Materials.” It does not apply to Excluded Materials listed below.
+
+Permission is granted to any person obtaining a copy of the Covered Materials
+to use, study, copy, modify, and create derivative works from them, and to
+redistribute unmodified or modified copies, provided that copies are distributed
+without charge for the source code and retain this license and copyright notice.
+
+Commercial use of the plugin to operate DaVinci Resolve, including editing,
+producing, and selling videos or other work made with it, is expressly allowed.
+
+You may not sell the Covered Materials in source-code form, charge a fee for
+access to or delivery of the source code, or make payment a condition of
+receiving source code or source-code modifications. This restriction concerns
+the source code itself; it does not prohibit earning money from creative work
+made using the plugin.
+
+Excluded Materials:
+
+1. All files under `assets/icons/iconpack/`, including the DaVinci Resolve Nodes
+   Icon Pack by Jean Almeida. The upstream README identifies that icon pack as
+   MIT licensed; see `assets/icons/iconpack/LICENSE-MIT.txt` and
+   `assets/icons/iconpack/PACK-README.md`.
+2. Copies of artwork from that icon pack in `assets/icons/`: `bladetool.png`,
+   `colorpage.png`, `cutpage.png`, `deliverpage.png`, `editpage.png`,
+   `fairlightpage.png`, `fusionpage.png`, `insertclip.png`, `markin.png`,
+   `markout.png`, `mediapage.png`, `playforward.png`, `playpause.png`,
+   `playreverse.png`, `plugin.png`, `selectiontool.png`, `splitclip.png`, and
+   `stop.png`. These remain subject to the upstream MIT license.
+3. Third-party dependencies, which remain subject to their own licenses.
+4. The DaVinci Resolve name and trademarks, which belong to their respective
+   owners.
+
+The Covered Materials are provided “AS IS”, without warranty of any kind,
+express or implied. In no event shall the copyright holder be liable for any
+claim, damages, or other liability arising from use of the Covered Materials.
+
+This is a custom source-available license, not an OSI-approved Open Source
+license. It restricts selling or charging for the source code. The separate
+icon-pack artwork is excluded and retains its own license.

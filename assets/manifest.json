@@ -1,0 +1,410 @@
+{
+  "Name": "DaVinci Resolve Controls",
+  "Description": "Page navigation and basic controls for DaVinci Resolve",
+  "Author": "Martijn",
+  "Version": "0.1.0",
+  "CodePaths": {
+    "x86_64-pc-windows-msvc": "x86_64-pc-windows-msvc/bin/opendeck-davinci-resolve.exe"
+  },
+  "CodePathWin": "x86_64-pc-windows-msvc/bin/opendeck-davinci-resolve.exe",
+  "Icon": "icons/plugin",
+  "Category": "DaVinci Resolve",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Actions": [
+    {
+      "Icon": "icons/editpage",
+      "Name": "Edit Page",
+      "States": [
+        {
+          "Image": "icons/editpage"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Edit Page in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.editpage"
+    },
+    {
+      "Icon": "icons/mediapage",
+      "Name": "Media Page",
+      "States": [{ "Image": "icons/mediapage" }],
+      "Controllers": ["Keypad", "Encoder"],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Open the Media page in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.mediapage"
+    },
+    {
+      "Icon": "icons/photopage",
+      "Name": "Photo Page",
+      "States": [{ "Image": "icons/photopage" }],
+      "Controllers": ["Keypad", "Encoder"],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Open the Photo page in DaVinci Resolve 21",
+      "UUID": "com.martijn.opendeck.davinciresolve.photopage"
+    },
+    {
+      "Icon": "icons/cutpage",
+      "Name": "Cut Page",
+      "States": [{ "Image": "icons/cutpage" }],
+      "Controllers": ["Keypad", "Encoder"],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Open the Cut page in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.cutpage"
+    },
+    {
+      "Icon": "icons/fusionpage",
+      "Name": "Fusion Page",
+      "States": [{ "Image": "icons/fusionpage" }],
+      "Controllers": ["Keypad", "Encoder"],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Open the Fusion page in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.fusionpage"
+    },
+    {
+      "Icon": "icons/colorpage",
+      "Name": "Color Page",
+      "States": [{ "Image": "icons/colorpage" }],
+      "Controllers": ["Keypad", "Encoder"],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Open the Color page in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.colorpage"
+    },
+    {
+      "Icon": "icons/fairlightpage",
+      "Name": "Fairlight Page",
+      "States": [{ "Image": "icons/fairlightpage" }],
+      "Controllers": ["Keypad", "Encoder"],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Open the Fairlight page in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.fairlightpage"
+    },
+    {
+      "Icon": "icons/deliverpage",
+      "Name": "Deliver Page",
+      "States": [{ "Image": "icons/deliverpage" }],
+      "Controllers": ["Keypad", "Encoder"],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Open the Deliver page in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.deliverpage"
+    },
+    {
+      "Icon": "icons/playpause",
+      "Name": "Play / Pause",
+      "States": [
+        {
+          "Image": "icons/playpause"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Play / Pause in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.playpause"
+    },
+    {
+      "Icon": "icons/timelinejog",
+      "Name": "Timeline Jog",
+      "States": [
+        {
+          "Image": "icons/timelinejog"
+        }
+      ],
+      "Controllers": [
+        "Encoder"
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Turn to step the timeline one frame per detent; press to play or pause",
+      "UUID": "com.martijn.opendeck.davinciresolve.timelinejog"
+    },
+    {
+      "Icon": "icons/timelinejog",
+      "Name": "Source Clip Jog",
+      "States": [
+        {
+          "Image": "icons/timelinejog"
+        }
+      ],
+      "Controllers": [
+        "Encoder"
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Edit page: turn to jog the clip in the Source Viewer; press to play or pause",
+      "UUID": "com.martijn.opendeck.davinciresolve.sourceclipjog"
+    },
+    {
+      "Icon": "icons/timelinezoom",
+      "Name": "Timeline Zoom",
+      "States": [{ "Image": "icons/timelinezoom" }],
+      "Controllers": ["Encoder"],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Edit page: turn to zoom the timeline; press to fit the whole timeline",
+      "UUID": "com.martijn.opendeck.davinciresolve.timelinezoom"
+    },
+    {
+      "Icon": "icons/playreverse",
+      "Name": "Play Reverse",
+      "States": [
+        {
+          "Image": "icons/playreverse"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Play Reverse in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.playreverse"
+    },
+    {
+      "Icon": "icons/stop",
+      "Name": "Stop Playback",
+      "States": [
+        {
+          "Image": "icons/stop"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Stop Playback in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.stop"
+    },
+    {
+      "Icon": "icons/playforward",
+      "Name": "Play Forward",
+      "States": [
+        {
+          "Image": "icons/playforward"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Play Forward in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.playforward"
+    },
+    {
+      "Icon": "icons/previousframe",
+      "Name": "Previous Frame",
+      "States": [
+        {
+          "Image": "icons/previousframe"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Previous Frame in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.previousframe"
+    },
+    {
+      "Icon": "icons/nextframe",
+      "Name": "Next Frame",
+      "States": [
+        {
+          "Image": "icons/nextframe"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Next Frame in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.nextframe"
+    },
+    {
+      "Icon": "icons/previousedit",
+      "Name": "Previous Edit",
+      "States": [
+        {
+          "Image": "icons/previousedit"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Previous Edit in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.previousedit"
+    },
+    {
+      "Icon": "icons/nextedit",
+      "Name": "Next Edit",
+      "States": [
+        {
+          "Image": "icons/nextedit"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Next Edit in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.nextedit"
+    },
+    {
+      "Icon": "icons/markin",
+      "Name": "Mark In",
+      "States": [
+        {
+          "Image": "icons/markin"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Mark In in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.markin"
+    },
+    {
+      "Icon": "icons/markout",
+      "Name": "Mark Out",
+      "States": [
+        {
+          "Image": "icons/markout"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Mark Out in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.markout"
+    },
+    {
+      "Icon": "icons/addmarker",
+      "Name": "Add Marker",
+      "States": [
+        {
+          "Image": "icons/addmarker"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Add Marker in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.addmarker"
+    },
+    {
+      "Icon": "icons/insertclip",
+      "Name": "Insert Clip",
+      "States": [
+        {
+          "Image": "icons/insertclip"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Insert Edit (F9) in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.insertclip"
+    },
+    {
+      "Icon": "icons/splitclip",
+      "Name": "Split Clip",
+      "States": [
+        {
+          "Image": "icons/splitclip"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Split Clip in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.splitclip"
+    },
+    {
+      "Icon": "icons/undo",
+      "Name": "Undo",
+      "States": [
+        {
+          "Image": "icons/undo"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Undo in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.undo"
+    },
+    {
+      "Icon": "icons/redo",
+      "Name": "Redo",
+      "States": [
+        {
+          "Image": "icons/redo"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Redo in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.redo"
+    },
+    {
+      "Icon": "icons/selectiontool",
+      "Name": "Selection Tool",
+      "States": [
+        {
+          "Image": "icons/selectiontool"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Selection Tool in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.selectiontool"
+    },
+    {
+      "Icon": "icons/bladetool",
+      "Name": "Blade Tool",
+      "States": [
+        {
+          "Image": "icons/bladetool"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Encoder"
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Blade Tool in DaVinci Resolve",
+      "UUID": "com.martijn.opendeck.davinciresolve.bladetool"
+    }
+  ]
+}
