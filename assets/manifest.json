@@ -2,7 +2,7 @@
   "Name": "DaVinci Resolve Controls",
   "Description": "Page navigation and basic controls for DaVinci Resolve",
   "Author": "Martijn",
-  "Version": "0.1.0",
+  "Version": "0.1.1",
   "CodePaths": {
     "x86_64-pc-windows-msvc": "x86_64-pc-windows-msvc/bin/opendeck-davinci-resolve.exe"
   },

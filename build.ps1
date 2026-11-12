@@ -11,7 +11,9 @@ New-Item -ItemType Directory -Force -Path $pluginRoot | Out-Null
 Copy-Item (Join-Path $PSScriptRoot 'assets/manifest.json') (Join-Path $pluginRoot 'manifest.json') -Force
 Copy-Item (Join-Path $PSScriptRoot 'assets/icons') $pluginRoot -Recurse -Force
 Copy-Item (Join-Path $PSScriptRoot 'LICENSE') $pluginRoot -Force
+Copy-Item (Join-Path $PSScriptRoot 'COPYRIGHT.txt') $pluginRoot -Force
 Copy-Item (Join-Path $PSScriptRoot 'README.md') $pluginRoot -Force
+Copy-Item (Join-Path $PSScriptRoot 'THIRD-PARTY-NOTICES.md') $pluginRoot -Force
 Copy-Item (Join-Path $PSScriptRoot "src/target/$target/release/opendeck-davinci-resolve.exe") (Join-Path $binaryDir 'opendeck-davinci-resolve.exe') -Force
 $archive = Join-Path $PSScriptRoot 'DaVinciResolve-OpenDeck.sdPlugin.zip'
 Compress-Archive -Path $pluginRoot -DestinationPath $archive -Force

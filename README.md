@@ -40,9 +40,9 @@ Run `./build.ps1` from PowerShell to produce `DaVinciResolve-OpenDeck.sdPlugin.z
 
 ## License and release
 
-The plugin source and original DiXY icons use the custom source-available terms in [LICENSE](LICENSE). Commercial use of the plugin to edit videos and earn money from that work is allowed. Selling or charging for the plugin's source code is not allowed. Because the license restricts source-code sales, this project is source-available but is not OSI-approved open-source software.
+The plugin source and original DiXY icons are licensed under the GNU General Public License v3.0 only; see [LICENSE](LICENSE). Commercial use is allowed, including using the plugin to edit videos for paying clients or to create work that you sell. GPLv3 also permits recipients to redistribute the covered source and binaries under its terms.
 
-The third-party icon pack and its copied action icons are excluded from the project license and retain their upstream MIT terms; see [icon licenses](assets/icons/iconpack/LICENSE-MIT.txt). See [RELEASING.md](RELEASING.md) for the automated GitHub release process. The first release is `v0.1.0`.
+The third-party icon pack and its copied action icons are not covered by the project license; they retain their upstream MIT terms. See [third-party notices](THIRD-PARTY-NOTICES.md) and [the icon pack's MIT license](assets/icons/iconpack/LICENSE-MIT.txt). See [RELEASING.md](RELEASING.md) for the automated GitHub release process. The first release is `v0.1.0`.
 
 ## Icon credits
 

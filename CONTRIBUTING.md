@@ -2,6 +2,11 @@
 
 Thanks for contributing to the DaVinci Resolve OpenDeck plugin.
 
+Unless a contribution is explicitly marked otherwise, contributions to the
+plugin code and original artwork are provided under GPL-3.0-only. Do not add
+third-party assets without documenting their source and license in
+`THIRD-PARTY-NOTICES.md`.
+
 ## Icons
 
 - Put action icons used by the plugin in `assets/icons/` and reference them from `assets/manifest.json`.
